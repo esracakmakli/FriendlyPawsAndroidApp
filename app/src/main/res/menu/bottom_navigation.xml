@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_kayıplar"
+        android:icon="@mipmap/ic_launcher_kayiplar1"
+        android:title="Kayıplar">
+    </item>
+
+    <item
+        android:id="@+id/nav_sahiplen"
+        android:icon="@mipmap/ic_launcher_sahiplen"
+        android:title="Sahiplen">
+    </item>
+    <item
+        android:id="@+id/nav_yardım"
+        android:icon="@mipmap/ic_launcher_yardim"
+        android:title="Soru/Cevap"></item>
+    <item
+        android:id="@+id/nav_profilim"
+        android:icon="@mipmap/ic_launcher_profilim"
+        android:title="Profilim">
+
+    </item>
+
+</menu>

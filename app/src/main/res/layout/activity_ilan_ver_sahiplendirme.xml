@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sahiplen.SahiplendirmeİlanVerActivity"
+    tools:layout_editor_absoluteY="81dp"
+    android:background="@drawable/animasyon">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Spinner
+                android:id="@+id/sahiplendirme_spinnertür"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5sp"
+                android:background="@drawable/edittext_dikdortgen" />
+
+            <Spinner
+                android:id="@+id/sahiplendirme_spinnerirk"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5sp"
+                android:background="@drawable/edittext_dikdortgen"></Spinner>
+
+            <Spinner
+                android:id="@+id/sahiplendirme_spinneryas"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5sp"
+                android:background="@drawable/edittext_dikdortgen" />
+
+            <Spinner
+                android:id="@+id/sahiplendirme_spinnercinsiyet"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5sp"
+                android:background="@drawable/edittext_dikdortgen" />
+
+            <Spinner
+                android:id="@+id/sahiplendirme_spinneryer"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5sp"
+                android:background="@drawable/edittext_dikdortgen" />
+
+            <Spinner
+                android:id="@+id/sahiplendirme_spinner_ilçe"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5sp"
+                android:background="@drawable/edittext_dikdortgen" />
+
+
+            <EditText
+                android:id="@+id/sahiplendirme_ilan_activity_isim_text"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5sp"
+                android:background="@drawable/edittext_dikdortgen"
+                android:hint="Eğer biliyorsanız hayvanın ismini girin"
+                android:inputType="textPersonName"
+                android:padding="10dp" />
+
+
+            <EditText
+                android:id="@+id/sahiplendirme_ilan_activity_açıklamatext"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5sp"
+                android:background="@drawable/edittext_dikdortgen"
+                android:hint="Neden sahiplendirmek istiyorsunuz?"
+                android:padding="10sp" />
+
+
+            <EditText
+                android:id="@+id/sahiplendirme_iletişim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5sp"
+                android:background="@drawable/edittext_dikdortgen"
+                android:hint="İletişim bilgilerinizi girin"
+                android:inputType="phone"
+                android:padding="10sp" />
+
+            <ImageView
+                android:id="@+id/sahiplendirme_ilan_activity_imageview"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="10sp"
+                android:onClick="sahiplendirmeFotoSec"
+                app:srcCompat="@drawable/ic_add_a_photo_black_24dp" />
+
+            <Button
+                android:id="@+id/sahiplendirme_ilanEkle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/edittext_dikdortgen"
+                android:backgroundTint="@color/colorPrimary"
+                android:onClick="sahiplendirmeİlanEkle"
+                android:text="İlan Ekle"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/sahiplendirme_ilan_ver_progressBar2"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="362dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="319dp"
+        android:foregroundGravity="center"
+        android:visibility="invisible" />
+
+
+</RelativeLayout>

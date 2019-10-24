@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/soru_cevap_soru_sor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="5sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginBottom="5sp"
+        android:background="@drawable/edittext_dikdortgen"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:onClick="soruSor"
+        android:text="Soru Ekle"
+        android:textColor="#FFFFFF" />
+
+    <Spinner
+        android:id="@+id/spinnersorukategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/soru_cevap_soru_sor"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:background="@drawable/edittext_dikdortgen"
+        android:padding="10sp" />
+
+    <ProgressBar
+        android:id="@+id/soru_cevap_progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/soru_cevap_rv"
+        android:layout_alignBottom="@+id/soru_cevap_rv"
+        android:layout_marginEnd="164dp"
+        android:layout_marginBottom="214dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/soru_cevap_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/spinnersorukategori"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="5dp" >
+
+    </android.support.v7.widget.RecyclerView>
+</RelativeLayout>

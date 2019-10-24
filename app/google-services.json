@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "693305766674",
+    "firebase_url": "https://bitirmeprojesi-a7af3.firebaseio.com",
+    "project_id": "bitirmeprojesi-a7af3",
+    "storage_bucket": "bitirmeprojesi-a7af3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693305766674:android:cb18e852dd0f3d1c",
+        "android_client_info": {
+          "package_name": "com.example.esra.bitirmeprojesi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693305766674-450rogf95mo9uk56f045ag31ecmv0uq0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.esra.bitirmeprojesi",
+            "certificate_hash": "7946fda00935a1567b6364f845e9f0687ff4bb0a"
+          }
+        },
+        {
+          "client_id": "693305766674-55oj4v5mkqghvobvuf9vassugaol734e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUWGk4WP3NGXN-a-2cIQ7Oz4q2afp0TJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "693305766674-55oj4v5mkqghvobvuf9vassugaol734e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

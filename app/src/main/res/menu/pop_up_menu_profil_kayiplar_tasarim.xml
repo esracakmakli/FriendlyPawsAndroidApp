@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/pop_up_menu_profil_kayiplar_düzenle"
+        android:title="Düzenle" />
+    <item
+        android:id="@+id/pop_up_menu_profil_kayiplar_bulundu_olarak_işaretle"
+        android:title="Bulundu Olarak İşaretle" />
+    <item
+        android:id="@+id/pop_up_menu_profil_kayiplar_sil"
+        android:title="Sil" />
+</menu>
